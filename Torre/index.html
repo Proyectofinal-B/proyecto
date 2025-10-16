@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Torre de bloques Tom y Lily</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+	<audio controls autoplay>
+		<source src="C:\Users\Janus\Documents\GLOOMY\PROYECTO-GLOMMY\Musica\Torre.mp3" type="audio/mpeg">
+		Tu navegador no soporta la etiqueta de audio.
+	</audio>
+
+
+
+<!-- partial:index.partial.html -->
+<meta name="viewport" content="width=device-width,user-scalable=no">
+
+<div id="container">
+	<div id="game"></div>
+	<div id="score">0</div>
+	<div id="instructions">Haga clic (o presione la barra espaciadora) para colocar el bloque.</div>
+	<div class="game-over">
+		<h2>Perdiste</h2>
+		<p>Lo hiciste genial, eres el mejor.</p>
+		<p>Haz clic o barra espaciadora para empezar de nuevo.</p>
+		<!-- Botón para el enlace -->
+        <a id="link-button" href="../Juegos.html" target="_blank">Volver a Tom y Lily</a>
+    </div>
+	</div>
+	<div class="game-ready">
+		<div id="start-button">Iniciar</div>
+		<div></div>
+	</div>
+</div>
+<!-- partial -->
+  <script src='https://codepen.io/ste-vg/pen/zBVaZw.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/r83/three.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js'></script><script  src="./script.js"></script>
+
+
+</body>
+</html>
